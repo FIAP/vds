@@ -10,8 +10,7 @@ Para hospedar um site estático no Amazon S3, configure um bucket do Amazon S3 p
 
 Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Amazon S3 como um site estático sem programar qualquer código.
 
-`Referência para a atividade em https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/WebsiteHosting.html`  
-
+`Referência para a atividade em https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/WebsiteHosting.html`
 
 1. Faça login no AWS Console (aws.amazon.com).
 
@@ -24,9 +23,8 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
    - nome: `fiap-cloud-vds-aws-s3`
    - região: Selecione uma região de preferência
    - versionamento: Habilite a opção Versionamento de Bucket
-   
 
-   > Mantenha as demais opções padrões. 
+> Mantenha as demais opções padrões. 
 
 6. Clique no nome do Bucket.
 
