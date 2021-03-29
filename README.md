@@ -1,7 +1,11 @@
 # vds
 Virtualization and Data Storage
 
-Conceitos e objetivos iniciais sobre tipos de virtualização: virtualização completa, paravirtualização e virtualização assistida por hardware.
+Conceitos e objetivos iniciais sobre tipos de virtualização:
+
+- virtualização completa
+- paravirtualização
+- virtualização assistida por hardware
 
 Benefícios da virtualização.
 
