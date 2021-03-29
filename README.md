@@ -13,12 +13,12 @@
   - Paravirtualização
   - Virtualização assistida por hardware
 
-  * Benefícios da virtualização.
+  Benefícios da virtualização.
 
-  * Tipos de ferramentas para virtualização de servidores como:
+  Tipos de ferramentas para virtualização de servidores como:
 
-    - HyperV
-    - Vmware
-    - KVM
+  - HyperV
+  - Vmware
+  - KVM
 
 
