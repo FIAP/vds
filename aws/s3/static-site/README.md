@@ -47,9 +47,9 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
 10. No menu **Objetos** clique em **Carregar**.
 
-10.1. Selecione **Adicionar arquivos**
-10.2. Busque pelos arquivos baixados e clique em **Carregar**
-10.3. Clique em **Fechar**
+    - Selecione **Adicionar arquivos**
+    - Busque pelos arquivos baixados e clique em **Carregar**
+    - Clique em **Fechar**
 
 11. Abra uma nova guia do navegador e acesse o endpoint guardado.
 
