@@ -40,7 +40,7 @@ Para hospedar um site estático no Amazon S3, configure um bucket do Amazon S3 p
 
 8. Faça download dos arquivos **index.html** e **error.html** disponíveis no repo GitHub abaixo.
  
-   - GitHub repository: `https://github.com/FIAP/vds/edit/master/aws/s3/static-site/`
+   - GitHub repository: [https://github.com/FIAP/vds/edit/master/aws/s3/static-site/](https://github.com/FIAP/vds/edit/master/aws/s3/static-site/)
 
 9. No menu **Objetos** clique em **Carregar**.
 
