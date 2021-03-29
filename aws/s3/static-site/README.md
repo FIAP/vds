@@ -22,8 +22,8 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
    - nome: `fiap-cloud-vds-aws-s3`
    - região: Selecione uma região de preferência
-   - versionamento: Habilite a opção Versionamento de Bucket
-   <br/>
+   - versionamento: Habilite a opção Versionamento de Bucket<br/>
+
    > Mantenha as demais opções padrões. 
 
 6. Clique no nome do Bucket.
