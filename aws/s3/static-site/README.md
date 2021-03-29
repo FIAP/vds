@@ -14,7 +14,7 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
 1. Faça login no AWS Console (aws.amazon.com).
 
-3. No menu de Serviços selecione **S3**.
+3. Em **Serviços** selecione **S3**.
 
 4. Selecione o botão **Criar bucket**.
 
@@ -23,7 +23,7 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
    - nome: `fiap-cloud-vds-aws-s3`
    - região: Selecione uma região de preferência
    - versionamento: Habilite a opção Versionamento de Bucket
-
+   <br/>
    > Mantenha as demais opções padrões. 
 
 6. Clique no nome do Bucket.
@@ -85,4 +85,4 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
 23. Abra uma nova guia do seu navegador e acesso o endpoint.
 
-  > Você deverá visualizar o conteúdo do arquivo index.html 
+    > Você deverá visualizar o conteúdo do arquivo index.html 
