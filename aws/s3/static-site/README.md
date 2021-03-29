@@ -12,7 +12,6 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
 > Referência para a atividade em **`https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/WebsiteHosting.html`**
 #
-#
 1. Faça login no AWS Console (aws.amazon.com).
 
 2. Em **Serviços** selecione **S3**.
