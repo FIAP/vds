@@ -22,11 +22,11 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
    - nome: `fiap-cloud-vds-aws-s3`
    - região: Selecione uma região de preferência
-   - versionamento: Habilite a opção Versionamento de Bucket
+   - versionamento: Habilite a opção **Versionamento de Bucket**
 
      > Mantenha as demais opções padrões. 
 
-5. Clique no nome do Bucket.
+5. Clique sobre o nome do Bucket.
 
 6. No menu **Propriedades** navegue até **Hospedagem de Site estático**, clique em **Editar** e preencha as informações abaixo.
 
@@ -42,7 +42,7 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
 8. Faça download dos arquivos **index.html** e **error.html** disponíveis no repo GitHub abaixo.
  
-   - Github repository: `https://github.com/FIAP/vds/new/master/aws/s3/static-site`
+   - GitHub repository: `https://github.com/FIAP/vds/edit/master/aws/s3/static-site/`
 
 9. No menu **Objetos** clique em **Carregar**.
 
