@@ -39,7 +39,7 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
    * url: `http://fiap-cloud-vds-aws-s3.s3-website-us-east-1.amazonaws.com`
 
-   > Guarde esta informação pois precisará a frente. 
+   > Guarde esta informação pois precisará a frente.
 
 9. Faça download dos arquivos **index.html** e **error.html** disponíveis no repo GitHub abaixo.
  
@@ -47,9 +47,9 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
 10. No menu **Objetos** clique em **Carregar**.
 
-    10.1. Selecione **Adicionar arquivos**.
-    10.2. Busque pelos arquivos baixados e clique em **Carregar**.
-    10.3. Clique em **Fechar**.
+10.1. Selecione **Adicionar arquivos**
+10.2. Busque pelos arquivos baixados e clique em **Carregar**
+10.3. Clique em **Fechar**
 
 11. Abra uma nova guia do navegador e acesse o endpoint guardado.
 
