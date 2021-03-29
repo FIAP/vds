@@ -24,7 +24,7 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
    - região: Selecione uma região de preferência
    - versionamento: Habilite a opção Versionamento de Bucket
 
-> Mantenha as demais opções padrões. 
+     > Mantenha as demais opções padrões. 
 
 6. Clique no nome do Bucket.
 
