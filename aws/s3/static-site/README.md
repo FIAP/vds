@@ -1,4 +1,4 @@
-# Atividade de armazenamento AWS S3 #
+# Atividade de armazenamento AWS S3 - site estático #
 
 O objetivo desta atividade é explorar na prática os conceitos de armazenamento utilizando o serviços AWS Simple Storage Service (S3). 
 
