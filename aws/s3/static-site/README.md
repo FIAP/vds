@@ -12,7 +12,6 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
 `Referência para a atividade em https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/WebsiteHosting.html`
 
-
 1. Faça login no AWS Console (aws.amazon.com).
 
 3. No menu de Serviços selecione **S3**.
@@ -25,7 +24,7 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
   região: Selecione uma região de preferência
   versionamento: Habilite a opção Versionamento de Bucket
 
-  Mantenha as demais opções padrões.
+  ###### Mantenha as demais opções padrões. ######
 
 6. Clique no nome do Bucket.
 
@@ -39,7 +38,7 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
   url: `http://fiap-cloud-vds-aws-s3.s3-website-us-east-1.amazonaws.com`
 
-  Guarde esta informação pois precisará a frente.
+  ###### Guarde esta informação pois precisará a frente. ######
 
 9. Faça download dos arquivos **index.html** e **error.html** disponíveis no repo GitHub abaixo.
  
@@ -55,15 +54,14 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
   Você deverá receber uma mensagem **Access Denied**.
 
-  Isso demonstra que seu Bucket ou Objetos estão sem acesso público
+  ###### Isso demonstra que seu Bucket ou Objetos estão sem acesso público. ######
 
 12. No menu **Objetos** selcione os arquivos html e clique em **Ações** e **Tornar público**.
 
 13. Clique em **Tornar Público**.
 
-  Você deverá receber a mensagem **Falha ao editar o acesso público pois o Bucket está com acesso restrito**.
-
-  Isso demonstra que objetos não poder ser público se um Bucket for privado.
+  ###### Você deverá receber a mensagem **Falha ao editar o acesso público pois o Bucket está com acesso restrito**. ######
+  ###### Isso demonstra que objetos não poder ser público se um Bucket for privado. ######
 
 14. CLique em **Fechar**.
 
@@ -79,9 +77,8 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
 20. Abra uma nova guia do seu navegador e acesse novamente o endpoint.
 
-  Você ainda deverá receber uma mensagem **Access Denied**.
-
-  Agora que você tornou o Bucket público, você ainda precisa tornar os objetos públicos.
+  ###### Você ainda deverá receber uma mensagem **Access Denied**. ######
+  ###### Agora que você tornou o Bucket público, você ainda precisa tornar os objetos públicos. ######
 
 21. No menu **Objetos** selcione novamente os arquivos html e clique em **Ações** e **Tornar público**.
 
@@ -89,4 +86,4 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
 23. Abra uma nova guia do seu navegador e acesso o endpoint.
 
-  Você deverá visualizar o conteúdo do arquivo index.html
+  ###### Você deverá visualizar o conteúdo do arquivo index.html ######
