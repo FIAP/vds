@@ -10,7 +10,7 @@ Para hospedar um site estático no Amazon S3, configure um bucket do Amazon S3 p
 
 Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Amazon S3 como um site estático sem programar qualquer código.
 
-`Referência para a atividade em **https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/WebsiteHosting.html**`
+`Referência para a atividade em https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/WebsiteHosting.html`
 
 
 1. Faça login no AWS Console (aws.amazon.com).
@@ -23,21 +23,21 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
    - nome: `fiap-cloud-vds-aws-s3`
    - região: Selecione uma região de preferência
-   - versionamento: Habilite a opção Versionamento de Bucket
+   - versionamento: Habilite a opção Versionamento de Bucket\
 
    > Mantenha as demais opções padrões. 
 
 6. Clique no nome do Bucket.
 
-7. No menu **Propriedades**, navegue até a opção **Hospedagem de Site estático**, clique em **Editar** e preencha com as informações abaixo.
+7. No menu **Propriedades** navegue até **Hospedagem de Site estático**, clique em **Editar** e preencha as informações abaixo.
 
    - Hospedagem de site estático: `Ativar`
    - Documento de índice: `index.html`
-   - Documento de erro - opcional: `error.html`
+   - Documento de erro opcional: `error.html`
 
-8. No menu **Propriedades**, verifique se a opção **Endpoint de site de bucket** foi preenchida com a url abaixo.
+8. No menu **Propriedades** verifique a opção **Endpoint de site de bucket** e guarde a url conforme exemplo abaixo.
 
-   - url: `http://fiap-cloud-vds-aws-s3.s3-website-us-east-1.amazonaws.com`
+   - url: `http://fiap-cloud-vds-aws-s3.s3-website-us-east-1.amazonaws.com`\
 
    > Guarde esta informação pois precisará a frente.
 
@@ -51,17 +51,17 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
     - Busque pelos arquivos baixados e clique em **Carregar**
     - Clique em **Fechar**
 
-11. Abra uma nova guia do navegador e acesse o endpoint guardado.
+11. Abra nova guia do navegador e acesse o endpoint capturado.
 
-    > Você deverá receber uma mensagem **Access Denied**.
-    > Isso demonstra que seu Bucket ou Objetos estão sem acesso público. 
+    > Você deverá receber mensagem **Access Denied**.
+    > Demonstra que o Bucket ou Objetos estão sem acesso público. 
 
 12. No menu **Objetos** selcione os arquivos html e clique em **Ações** e **Tornar público**.
 
 13. Clique em **Tornar Público**.
 
-    > Você deverá receber a mensagem **Falha ao editar o acesso público pois o Bucket está com acesso restrito**. 
-    > Isso demonstra que objetos não poder ser público se um Bucket for privado. 
+    > Você deverá receber mensagem **Falha ao editar o acesso público pois o Bucket está com acesso restrito**. 
+    > Demonstra que objetos não podem ser públicos se um Bucket for privado. 
 
 14. CLique em **Fechar**.
 
@@ -71,11 +71,11 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
 17. Digite a palavra de confirmação e clique em **Confirmar**.
 
-18. Abra uma nova guia do seu navegador e acesse novamente o endpoint.
+18. Atualize o conteúdo do navegador com o endpoint.
 
 19. No menu **Objetos** repita o passo de seleção dos arquivos html e clique em **Ações** e **Tornar público**.
 
-20. Abra uma nova guia do seu navegador e acesse novamente o endpoint.
+20. Atualize seu navegador com o endpoint guardado.
 
     > Você ainda deverá receber uma mensagem **Access Denied**. 
     > Agora que você tornou o Bucket público, você ainda precisa tornar os objetos públicos. 
