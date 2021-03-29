@@ -7,10 +7,9 @@ O Amazon S3 pode ser utilizado para hospedar sites estáticos.
 Hospedar um site estático no Amazon S3 proporciona um site altamente escalável e de alto desempenho por uma fração do custo de um servidor Web tradicional.
 
 Para hospedar um site estático no Amazon S3, configure um bucket do Amazon S3 para hospedagem e faça upload do conteúdo do seu site.
-  
-#
+
 > Referência: **`https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/WebsiteHosting.html`**
-##
+#
 1. Faça login no AWS Console (aws.amazon.com).
 
 2. Em **Serviços** selecione **S3**.
