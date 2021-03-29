@@ -20,7 +20,7 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
 4. Na tela de criação de bucket preencha com as informações abaixo.
 
-   - nome: `fiap-cloud-vds-aws-s3`
+   - nome: `fiap-cloud-vds-aws-s3-<SEU_NOME>`
    - região: Selecione uma região de preferência
    - versionamento: Habilite a opção **Versionamento de Bucket**
 
@@ -36,7 +36,7 @@ Usando o Console de Gerenciamento da AWS, você pode configurar seu bucket do Am
 
 7. No menu **Propriedades** verifique a opção **Endpoint de site de bucket** e guarde a url conforme exemplo abaixo.
 
-   - url: `http://fiap-cloud-vds-aws-s3.s3-website-us-east-1.amazonaws.com`\
+   - url: `http://fiap-cloud-vds-aws-s3-<SEU_NOME>.s3-website-us-east-1.amazonaws.com`\
 
      > Guarde esta informação pois precisará a frente.
 
