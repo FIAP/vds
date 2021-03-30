@@ -1,6 +1,6 @@
 # Atividade de armazenamento AWS S3 (Site estático) #
 
-O objetivo desta atividade é explorar na prática os conceitos de armazenamento utilizando o serviços AWS Simple Storage Service (S3). 
+O objetivo desta atividade é explorar na prática os conceitos de armazenamento utilizando o serviço AWS Simple Storage Service (S3). 
 
 O Amazon S3 pode ser utilizado para hospedar sites estáticos.
 
