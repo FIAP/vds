@@ -34,7 +34,7 @@ Para hospedar um site estático no Amazon S3, configure um bucket do Amazon S3 p
 
 7. No menu **Propriedades** verifique a opção **Endpoint de site de bucket** e guarde a url conforme exemplo abaixo.
 
-   - url: `http://fiap-cloud-vds-aws-s3-<SEU_NOME>.s3-website-us-east-1.amazonaws.com`\
+   - url: `http://fiap-cloud-vds-aws-s3-<SEU_NOME>.s3-website-us-east-1.amazonaws.com`
 
      > Guarde esta informação pois precisará a frente.
 
