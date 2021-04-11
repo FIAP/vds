@@ -129,4 +129,4 @@ Configure as instâncias para utilizarem de forma compartilhada o sistema de arq
    > Specify username: `ec2-user`
    > Use private key: arquivo com a chave utilizada durante criação da instância
 
-     ![terminal ssh](/img/ssh-connect.PNG) 
+     ![terminal ssh](/vds/aws/efs/img/ssh-connect.PNG) 
