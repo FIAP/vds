@@ -124,9 +124,9 @@ Configure as instâncias para utilizarem de forma compartilhada o sistema de arq
 1. Abra um terminal ssh e conecte na instância EC2.
 
    > Na figura abaixo com MobaXterm, os seguintes campos foram preenhidos
-   >  
-   > Remote host: **DNS IPv4 público**
-   > Specify username: `ec2-user`
-   > Use private key: arquivo com a chave utilizada durante criação da instância
+
+     - Remote host: **DNS IPv4 público**
+     - Specify username: `ec2-user`
+     - Use private key: arquivo com a chave utilizada durante criação da instância
 
      ![terminal ssh](/aws/efs/sharefs/img/ssh-connect.PNG) 
