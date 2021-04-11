@@ -118,7 +118,7 @@ Inicie instâncias EC2.
 
 Configure as instâncias para utilizarem de forma compartilhada o sistema de arquivos criado no primeiro passo.
 
-1. Abra um terminal ssh e conecte na instância EC2.
+1. Abra um terminal ssh e conecte nas instâncias EC2.
 
    > Na figura abaixo com [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html), os seguintes campos foram preenhidos
 
@@ -127,3 +127,24 @@ Configure as instâncias para utilizarem de forma compartilhada o sistema de arq
      - Use private key: arquivo com a chave utilizada durante criação da instância
 
      ![terminal ssh](/aws/efs/sharefs/img/ssh-connect.PNG) 
+
+2. Realize a montagem do sistema de arquivos com os comandos abaixo nas duas instâncias.
+
+   ```
+   sudo -i
+   mkdir /opt/sharefs
+   mount -t nfs -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport {Endereço IP}:/ /opt/sharefs
+   ```
+
+3. Crie um arquivo na primeira instância e verifique na outra instãncia se o arquivo existe.
+
+   Na primeira instância:
+   ```
+   touch /opt/sharefs/file_a
+   ls -la /opt/sharefs/
+   ```
+
+   Na segunda instância
+   ```
+   ls -la /opt/sharefs/
+   ```
