@@ -118,12 +118,9 @@ Inicie instâncias EC2.
 
 Configure as instâncias para utilizarem de forma compartilhada o sistema de arquivos criado no primeiro passo.
 
-> Para facilitar a execução sugerimos um terminal Linux.
-> Opção: [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html).
-
 1. Abra um terminal ssh e conecte na instância EC2.
 
-   > Na figura abaixo com MobaXterm, os seguintes campos foram preenhidos
+   > Na figura abaixo com [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html), os seguintes campos foram preenhidos
 
      - Remote host: **DNS IPv4 público**
      - Specify username: `ec2-user`
