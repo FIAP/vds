@@ -138,7 +138,7 @@ Configure as instâncias para utilizarem de forma compartilhada o sistema de arq
 
 3. Crie um arquivo na primeira instância e verifique na outra instãncia se o arquivo existe.
 
-   Na primeira instância:
+   Na primeira instância
    ```
    touch /opt/sharefs/file_a
    ls -la /opt/sharefs/
