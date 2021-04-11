@@ -130,6 +130,7 @@ Configure as instâncias para utilizarem de forma compartilhada o sistema de arq
 
 2. Realize a montagem do sistema de arquivos com os comandos abaixo nas duas instâncias.
 
+   > Substitua `{Endereço IP}` pelo valor capturado no primeiro passo dessa atividade.
    ```
    sudo -i
    mkdir /opt/sharefs
