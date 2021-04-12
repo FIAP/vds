@@ -18,7 +18,7 @@ O objetivo desta atividade é explorar na prática os conceitos deste serviço.
 
 > Referência: [https://docs.aws.amazon.com/pt_br/efs/latest/ug/whatisefs.html](https://docs.aws.amazon.com/pt_br/efs/latest/ug/whatisefs.html)
 
-Arquitetura base para esta atividade ([draw.io](https://github.com/FIAP/vds/blob/master/aws/efs/sharefs/sharefs.drawio))
+Arquitetura base para esta atividade ([sharefs.drawio](https://github.com/FIAP/vds/blob/master/aws/efs/sharefs/sharefs.drawio))
 
 ![arquitetura base](/aws/efs/sharefs/img/shareefs.png)
 
