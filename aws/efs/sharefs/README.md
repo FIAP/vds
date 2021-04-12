@@ -18,6 +18,9 @@ O objetivo desta atividade é explorar na prática os conceitos deste serviço.
 
 > Referência: [https://docs.aws.amazon.com/pt_br/efs/latest/ug/whatisefs.html](https://docs.aws.amazon.com/pt_br/efs/latest/ug/whatisefs.html)
 
+Desenho da arquitetura base para esta atividade:
+
+![arquitetura base](/aws/efs/sharefs/img/shareefs.PNG)
 
 ## Passo 1
 
@@ -126,7 +129,7 @@ Configure as instâncias para utilizarem de forma compartilhada o sistema de arq
      - Specify username: `ec2-user`
      - Use private key: arquivo com a chave utilizada durante criação da instância
 
-     ![terminal ssh](/aws/efs/sharefs/img/ssh-connect.PNG) 
+     ![terminal ssh](/aws/efs/sharefs/img/ssh-connect.PNG)
 
 2. Realize a montagem do sistema de arquivos com os comandos abaixo nas duas instâncias.
 
