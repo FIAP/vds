@@ -18,9 +18,9 @@ O objetivo desta atividade é explorar na prática os conceitos deste serviço.
 
 > Referência: [https://docs.aws.amazon.com/pt_br/efs/latest/ug/whatisefs.html](https://docs.aws.amazon.com/pt_br/efs/latest/ug/whatisefs.html)
 
-Desenho da arquitetura base para esta atividade:
+Arquitetura base para esta atividade:
 
-![arquitetura base](/aws/efs/sharefs/img/shareefs.PNG)
+![arquitetura base](/aws/efs/sharefs/img/shareefs.png)
 
 ## Passo 1
 
