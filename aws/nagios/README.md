@@ -2,7 +2,7 @@
 
 O objetivo desse laboratório é configurar um ambiente básico utilizando o software Nagios.
 
-![Arquitetura](/aws/nagios/images/arquitetura.png)
+![Arquitetura](/aws/nagios/images/arquitetura-nagios.png)
 
 Escopo:
 
