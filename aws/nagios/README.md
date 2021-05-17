@@ -23,7 +23,7 @@ Escopo:
 
   - Linux: https://www.site24x7.com/help/admin/adding-a-monitor/configuring-snmp-linux.html
 
-* Configuração do Nagios Core adicionando as máquinas para serem gerenciadas via NCPA (Linux), NSClient (Windows), SNMP (Network devices) e ICMP (Todas via ping).
+* Configuração do Nagios Core adicionando as máquinas para serem gerenciadas via NCPA, SNMP e ICMP (via ping).
 
 
 * Referências
