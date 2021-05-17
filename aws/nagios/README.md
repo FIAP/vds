@@ -1,4 +1,4 @@
-# Laboratório de Virtualização com o software Nagios para o Check Point #02
+# Laboratório de Virtualização para o Check Point #02
 
 O objetivo desse laboratório é configurar um ambiente básico utilizando o software Nagios.
 
